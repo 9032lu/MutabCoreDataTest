@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rr3-pV-mip">
+                                <rect key="frame" x="137.5" y="77" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Poc-rM-OlZ"/>
+                                    <constraint firstAttribute="width" constant="100" id="d2V-Nf-0YL"/>
+                                </constraints>
+                                <state key="normal" title="添加"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vgr-AT-YAx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxe-AP-OKy">
+                                <rect key="frame" x="10" y="142" width="365" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2dF-T9-meK"/>
+                                </constraints>
+                                <state key="normal" title="查询开发部门中名为张三的工资等级"/>
+                                <connections>
+                                    <action selector="search1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HRd-zi-Dgr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgh-gf-8UF">
+                                <rect key="frame" x="10" y="232" width="355" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hAs-hO-Nyz"/>
+                                </constraints>
+                                <state key="normal" title="查询运维部名为欧阳的工资等级及开户银行"/>
+                                <connections>
+                                    <action selector="search2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ow-ap-TAv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fxe-AP-OKy" firstAttribute="top" secondItem="rr3-pV-mip" secondAttribute="bottom" constant="35" id="3Zt-h1-ZQq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fxe-AP-OKy" secondAttribute="trailing" id="818-XK-IDN"/>
+                            <constraint firstItem="rr3-pV-mip" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CDP-BF-6B7"/>
+                            <constraint firstItem="rr3-pV-mip" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="TCE-zE-zrz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wgh-gf-8UF" secondAttribute="trailing" constant="10" id="cHO-C0-Ids"/>
+                            <constraint firstItem="Wgh-gf-8UF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="dzJ-VT-Vq1"/>
+                            <constraint firstItem="Wgh-gf-8UF" firstAttribute="top" secondItem="fxe-AP-OKy" secondAttribute="bottom" constant="40" id="f9f-gF-KUD"/>
+                            <constraint firstItem="fxe-AP-OKy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ppa-jg-53d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="29.23538230884558"/>
+        </scene>
+    </scenes>
+</document>

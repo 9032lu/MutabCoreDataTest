@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Bank" representedClassName="Bank" syncable="YES">
+        <attribute name="bk_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bk_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employeeship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="bank" inverseEntity="Employee" syncable="YES"/>
+    </entity>
+    <entity name="Department" representedClassName="Department" syncable="YES">
+        <attribute name="dp_deptname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employeeship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="dept" inverseEntity="Employee" syncable="YES"/>
+        <relationship name="postship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Post" inverseName="dept" inverseEntity="Post" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES">
+        <attribute name="em_age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="em_bankcardid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="em_sex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="en_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bank" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bank" inverseName="employeeship" inverseEntity="Bank" syncable="YES"/>
+        <relationship name="dept" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="employeeship" inverseEntity="Department" syncable="YES"/>
+        <relationship name="post" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Post" inverseName="employeeship" inverseEntity="Post" syncable="YES"/>
+    </entity>
+    <entity name="Post" representedClassName="Post" syncable="YES">
+        <attribute name="pt_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dept" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="postship" inverseEntity="Department" syncable="YES"/>
+        <relationship name="employeeship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="post" inverseEntity="Employee" syncable="YES"/>
+        <relationship name="salaryship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Salary" inverseName="post" inverseEntity="Salary" syncable="YES"/>
+    </entity>
+    <entity name="Salary" representedClassName="Salary" syncable="YES">
+        <attribute name="sy_level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sy_scale" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="post" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Post" inverseName="salaryship" inverseEntity="Post" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="-261" positionY="-139" width="128" height="88"/>
+        <element name="Employee" positionX="-47" positionY="-243" width="128" height="148"/>
+        <element name="Post" positionX="-27" positionY="99" width="128" height="103"/>
+        <element name="Salary" positionX="43" positionY="-378" width="128" height="88"/>
+        <element name="Bank" positionX="-261" positionY="-369" width="128" height="88"/>
+    </elements>
+</model>

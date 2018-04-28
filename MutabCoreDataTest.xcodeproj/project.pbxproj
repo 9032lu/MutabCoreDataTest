@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C17D7B42094673600C48093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7B32094673600C48093 /* AppDelegate.m */; };
+		3C17D7B72094673600C48093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7B62094673600C48093 /* ViewController.m */; };
+		3C17D7BA2094673600C48093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C17D7B82094673600C48093 /* Main.storyboard */; };
+		3C17D7BC2094673700C48093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C17D7BB2094673700C48093 /* Assets.xcassets */; };
+		3C17D7BF2094673700C48093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C17D7BD2094673700C48093 /* LaunchScreen.storyboard */; };
+		3C17D7C22094673700C48093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7C12094673700C48093 /* main.m */; };
+		3C17D7CA2094674D00C48093 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7C82094674D00C48093 /* Model.xcdatamodeld */; };
+		3C17D7DF20946D4C00C48093 /* Employee+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7CD20946D4C00C48093 /* Employee+CoreDataClass.m */; };
+		3C17D7E020946D4C00C48093 /* Employee+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7CE20946D4C00C48093 /* Employee+CoreDataProperties.m */; };
+		3C17D7E120946D4C00C48093 /* Bank+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7D120946D4C00C48093 /* Bank+CoreDataClass.m */; };
+		3C17D7E220946D4C00C48093 /* Bank+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7D220946D4C00C48093 /* Bank+CoreDataProperties.m */; };
+		3C17D7E320946D4C00C48093 /* Department+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7D520946D4C00C48093 /* Department+CoreDataClass.m */; };
+		3C17D7E420946D4C00C48093 /* Department+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7D620946D4C00C48093 /* Department+CoreDataProperties.m */; };
+		3C17D7E520946D4C00C48093 /* Post+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7D920946D4C00C48093 /* Post+CoreDataClass.m */; };
+		3C17D7E620946D4C00C48093 /* Post+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7DA20946D4C00C48093 /* Post+CoreDataProperties.m */; };
+		3C17D7E720946D4C00C48093 /* Salary+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7DD20946D4C00C48093 /* Salary+CoreDataClass.m */; };
+		3C17D7E820946D4C00C48093 /* Salary+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17D7DE20946D4C00C48093 /* Salary+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C17D7AF2094673600C48093 /* MutabCoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutabCoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C17D7B22094673600C48093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C17D7B32094673600C48093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C17D7B52094673600C48093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C17D7B62094673600C48093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C17D7B92094673600C48093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C17D7BB2094673700C48093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C17D7BE2094673700C48093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C17D7C02094673700C48093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C17D7C12094673700C48093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C17D7C92094674D00C48093 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3C17D7CB20946D4C00C48093 /* Employee+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Employee+CoreDataProperties.h"; path = "MutabCoreDataTest/Employee+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3C17D7CC20946D4C00C48093 /* Employee+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Employee+CoreDataClass.h"; path = "MutabCoreDataTest/Employee+CoreDataClass.h"; sourceTree = "<group>"; };
+		3C17D7CD20946D4C00C48093 /* Employee+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Employee+CoreDataClass.m"; path = "MutabCoreDataTest/Employee+CoreDataClass.m"; sourceTree = "<group>"; };
+		3C17D7CE20946D4C00C48093 /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Employee+CoreDataProperties.m"; path = "MutabCoreDataTest/Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3C17D7CF20946D4C00C48093 /* Bank+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bank+CoreDataProperties.h"; path = "MutabCoreDataTest/Bank+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3C17D7D020946D4C00C48093 /* Bank+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bank+CoreDataClass.h"; path = "MutabCoreDataTest/Bank+CoreDataClass.h"; sourceTree = "<group>"; };
+		3C17D7D120946D4C00C48093 /* Bank+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Bank+CoreDataClass.m"; path = "MutabCoreDataTest/Bank+CoreDataClass.m"; sourceTree = "<group>"; };
+		3C17D7D220946D4C00C48093 /* Bank+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Bank+CoreDataProperties.m"; path = "MutabCoreDataTest/Bank+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3C17D7D320946D4C00C48093 /* Department+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Department+CoreDataProperties.h"; path = "MutabCoreDataTest/Department+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3C17D7D420946D4C00C48093 /* Department+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Department+CoreDataClass.h"; path = "MutabCoreDataTest/Department+CoreDataClass.h"; sourceTree = "<group>"; };
+		3C17D7D520946D4C00C48093 /* Department+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Department+CoreDataClass.m"; path = "MutabCoreDataTest/Department+CoreDataClass.m"; sourceTree = "<group>"; };
+		3C17D7D620946D4C00C48093 /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Department+CoreDataProperties.m"; path = "MutabCoreDataTest/Department+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3C17D7D720946D4C00C48093 /* Post+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Post+CoreDataProperties.h"; path = "MutabCoreDataTest/Post+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3C17D7D820946D4C00C48093 /* Post+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Post+CoreDataClass.h"; path = "MutabCoreDataTest/Post+CoreDataClass.h"; sourceTree = "<group>"; };
+		3C17D7D920946D4C00C48093 /* Post+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Post+CoreDataClass.m"; path = "MutabCoreDataTest/Post+CoreDataClass.m"; sourceTree = "<group>"; };
+		3C17D7DA20946D4C00C48093 /* Post+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Post+CoreDataProperties.m"; path = "MutabCoreDataTest/Post+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3C17D7DB20946D4C00C48093 /* Salary+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Salary+CoreDataProperties.h"; path = "MutabCoreDataTest/Salary+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3C17D7DC20946D4C00C48093 /* Salary+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Salary+CoreDataClass.h"; path = "MutabCoreDataTest/Salary+CoreDataClass.h"; sourceTree = "<group>"; };
+		3C17D7DD20946D4C00C48093 /* Salary+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Salary+CoreDataClass.m"; path = "MutabCoreDataTest/Salary+CoreDataClass.m"; sourceTree = "<group>"; };
+		3C17D7DE20946D4C00C48093 /* Salary+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Salary+CoreDataProperties.m"; path = "MutabCoreDataTest/Salary+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C17D7AC2094673600C48093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C17D7A62094673500C48093 = {
+			isa = PBXGroup;
+			children = (
+				3C17D7CB20946D4C00C48093 /* Employee+CoreDataProperties.h */,
+				3C17D7CC20946D4C00C48093 /* Employee+CoreDataClass.h */,
+				3C17D7CD20946D4C00C48093 /* Employee+CoreDataClass.m */,
+				3C17D7CE20946D4C00C48093 /* Employee+CoreDataProperties.m */,
+				3C17D7CF20946D4C00C48093 /* Bank+CoreDataProperties.h */,
+				3C17D7D020946D4C00C48093 /* Bank+CoreDataClass.h */,
+				3C17D7D120946D4C00C48093 /* Bank+CoreDataClass.m */,
+				3C17D7D220946D4C00C48093 /* Bank+CoreDataProperties.m */,
+				3C17D7D320946D4C00C48093 /* Department+CoreDataProperties.h */,
+				3C17D7D420946D4C00C48093 /* Department+CoreDataClass.h */,
+				3C17D7D520946D4C00C48093 /* Department+CoreDataClass.m */,
+				3C17D7D620946D4C00C48093 /* Department+CoreDataProperties.m */,
+				3C17D7D720946D4C00C48093 /* Post+CoreDataProperties.h */,
+				3C17D7D820946D4C00C48093 /* Post+CoreDataClass.h */,
+				3C17D7D920946D4C00C48093 /* Post+CoreDataClass.m */,
+				3C17D7DA20946D4C00C48093 /* Post+CoreDataProperties.m */,
+				3C17D7DB20946D4C00C48093 /* Salary+CoreDataProperties.h */,
+				3C17D7DC20946D4C00C48093 /* Salary+CoreDataClass.h */,
+				3C17D7DD20946D4C00C48093 /* Salary+CoreDataClass.m */,
+				3C17D7DE20946D4C00C48093 /* Salary+CoreDataProperties.m */,
+				3C17D7C82094674D00C48093 /* Model.xcdatamodeld */,
+				3C17D7B12094673600C48093 /* MutabCoreDataTest */,
+				3C17D7B02094673600C48093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C17D7B02094673600C48093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C17D7AF2094673600C48093 /* MutabCoreDataTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C17D7B12094673600C48093 /* MutabCoreDataTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C17D7B22094673600C48093 /* AppDelegate.h */,
+				3C17D7B32094673600C48093 /* AppDelegate.m */,
+				3C17D7B52094673600C48093 /* ViewController.h */,
+				3C17D7B62094673600C48093 /* ViewController.m */,
+				3C17D7B82094673600C48093 /* Main.storyboard */,
+				3C17D7BB2094673700C48093 /* Assets.xcassets */,
+				3C17D7BD2094673700C48093 /* LaunchScreen.storyboard */,
+				3C17D7C02094673700C48093 /* Info.plist */,
+				3C17D7C12094673700C48093 /* main.m */,
+			);
+			path = MutabCoreDataTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C17D7AE2094673600C48093 /* MutabCoreDataTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C17D7C52094673700C48093 /* Build configuration list for PBXNativeTarget "MutabCoreDataTest" */;
+			buildPhases = (
+				3C17D7AB2094673600C48093 /* Sources */,
+				3C17D7AC2094673600C48093 /* Frameworks */,
+				3C17D7AD2094673600C48093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutabCoreDataTest;
+			productName = MutabCoreDataTest;
+			productReference = 3C17D7AF2094673600C48093 /* MutabCoreDataTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C17D7A72094673500C48093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					3C17D7AE2094673600C48093 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 3C17D7AA2094673500C48093 /* Build configuration list for PBXProject "MutabCoreDataTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C17D7A62094673500C48093;
+			productRefGroup = 3C17D7B02094673600C48093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C17D7AE2094673600C48093 /* MutabCoreDataTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C17D7AD2094673600C48093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C17D7BF2094673700C48093 /* LaunchScreen.storyboard in Resources */,
+				3C17D7BC2094673700C48093 /* Assets.xcassets in Resources */,
+				3C17D7BA2094673600C48093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C17D7AB2094673600C48093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C17D7B72094673600C48093 /* ViewController.m in Sources */,
+				3C17D7E820946D4C00C48093 /* Salary+CoreDataProperties.m in Sources */,
+				3C17D7E120946D4C00C48093 /* Bank+CoreDataClass.m in Sources */,
+				3C17D7E720946D4C00C48093 /* Salary+CoreDataClass.m in Sources */,
+				3C17D7C22094673700C48093 /* main.m in Sources */,
+				3C17D7E220946D4C00C48093 /* Bank+CoreDataProperties.m in Sources */,
+				3C17D7E520946D4C00C48093 /* Post+CoreDataClass.m in Sources */,
+				3C17D7E620946D4C00C48093 /* Post+CoreDataProperties.m in Sources */,
+				3C17D7E320946D4C00C48093 /* Department+CoreDataClass.m in Sources */,
+				3C17D7B42094673600C48093 /* AppDelegate.m in Sources */,
+				3C17D7E020946D4C00C48093 /* Employee+CoreDataProperties.m in Sources */,
+				3C17D7CA2094674D00C48093 /* Model.xcdatamodeld in Sources */,
+				3C17D7DF20946D4C00C48093 /* Employee+CoreDataClass.m in Sources */,
+				3C17D7E420946D4C00C48093 /* Department+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C17D7B82094673600C48093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C17D7B92094673600C48093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C17D7BD2094673700C48093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C17D7BE2094673700C48093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C17D7C32094673700C48093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C17D7C42094673700C48093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C17D7C62094673700C48093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EC74XZ6LJN;
+				INFOPLIST_FILE = MutabCoreDataTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xian.MutabCoreDataTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C17D7C72094673700C48093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EC74XZ6LJN;
+				INFOPLIST_FILE = MutabCoreDataTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xian.MutabCoreDataTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C17D7AA2094673500C48093 /* Build configuration list for PBXProject "MutabCoreDataTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17D7C32094673700C48093 /* Debug */,
+				3C17D7C42094673700C48093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C17D7C52094673700C48093 /* Build configuration list for PBXNativeTarget "MutabCoreDataTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17D7C62094673700C48093 /* Debug */,
+				3C17D7C72094673700C48093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C17D7C82094674D00C48093 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C17D7C92094674D00C48093 /* Model.xcdatamodel */,
+			);
+			currentVersion = 3C17D7C92094674D00C48093 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C17D7A72094673500C48093 /* Project object */;
+}
